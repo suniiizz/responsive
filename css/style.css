@@ -1,14 +1,14 @@
 /* 레이아웃 */
 body {
-    background: url(../img/header_bg.jpg) repeat-x center top;
+    background: url(../img/header_bg.png) center top repeat-x;
 }
 
 #nav {
-    background-color: #f6fdff;
+    background-color: #f9fbff;
 }
 
 #title {
-    background-color: #eaf7fd;
+    background-color: #f1f5fe;
 }
 
 #contents .container {
@@ -37,7 +37,7 @@ body {
 }
 
 #footer {
-     border-top: 1px solid #dbdbdb;
+    border-top: 1px solid #dbdbdb;
 }
 
 /* 컨테이너 */
@@ -45,7 +45,6 @@ body {
     position: relative;
     width: 1200px;
     margin: 0 auto;
-    /* background: rgba(0,0,0,0.3); */
 }
 
 /* 헤더 */
@@ -79,7 +78,7 @@ body {
 .header .header_tit h1 {
     font-size: 30px;
     color: #fff;
-    background: #51b0dc;
+    background: #f0c5f0;
     display: inline-block;
     padding: 5px 30px 5px 30px;
     letter-spacing: 2px;
@@ -89,14 +88,14 @@ body {
 
 .header .header_tit h1:hover {
     box-shadow: 
-        inset -9em 0 0 0 #257fac,
-        inset 9em 0 0 0 #257fac;
+        inset -9em 0 0 0 #e088e0,
+        inset 9em 0 0 0 #e088e0;
 }
 
 .header .header_tit a {
     font-size: 16px;
     color: #fff;
-    background: #4a91bf;
+    background: #eab1ea;
     display: inline-block;
     padding: 10px 20px 10px 20px;
     margin-top: -7px;
@@ -105,7 +104,7 @@ body {
 
 .header .header_tit a:hover {
     box-shadow: 
-        0 0 0 5px rgba(75,154,191,0.9) inset,
+        0 0 0 5px #e088e0 inset,
         0 0 0 100px rgba(0,0,0,0.1) inset;
 
 }
@@ -122,7 +121,7 @@ body {
 }
 
 .header .header_icon li a {
-    background-color: #3192bf;
+    background-color: #b9cff8;
     border-radius: 50%;
     width: 60px;
     height: 60px;
@@ -141,7 +140,7 @@ body {
     transform: translate(-50%);
     font-size: 12px;
     line-height: 1.6;
-    background: #3192bf;
+    background: #b9cff8;
     padding: 3px 9px;
     border-radius: 6px 0;
     opacity: 0;
@@ -154,7 +153,7 @@ body {
     left: 50%;
     bottom: -5px;
     margin-left: -5px;
-    border-top: 5px solid #3192bf;
+    border-top: 5px solid #b9cff8;
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
 }
@@ -166,7 +165,7 @@ body {
 
 .header .header_icon li a:hover {
     box-shadow: 
-        0 0 0 3px rgba(75,154,191,0.9) inset,
+        0 0 0 3px #8aaff4 inset,
         0 0 0 100px rgba(0,0,0,0.1) inset;
 }
 
@@ -206,7 +205,7 @@ body {
     content: '';
     width: 3px;
     height: 3px;
-    background-color: #25a2d0;
+    background-color: #b9cff8;
     border-radius: 50%;
     position: absolute;
     left: 0;
@@ -215,7 +214,7 @@ body {
 
 .nav > div h3 {
     font-size: 18px;
-    color: #25a2d0;
+    color: #b9cff8;
     font-weight: bold;
     margin-bottom: 4px;
 }
@@ -232,7 +231,7 @@ body {
     position: absolute;
     left: 0;
     bottom: 0;
-    background: #25aad0;
+    background: #b9cff8;
     transition: all 0.2s ease-out;
 }
 
@@ -249,7 +248,7 @@ body {
 .title h2 {
     font-family: 'Abel', sans-serif;
     font-size: 39px;
-    color: #0093bd;
+    color: #b9cff8;
     padding: 5px 0;
     text-align: center;
     letter-spacing: 2px;
@@ -262,7 +261,7 @@ body {
     line-height: 60px;
     font-size: 35px;
     transition: all 0.3s ease;
-    background: #3192bf;
+    background: #b9cff8;
     color: #fff;
     border-radius: 50%;
     right: 0;
@@ -271,7 +270,7 @@ body {
 
 .title .btn:hover {
     box-shadow:
-        0 0 0 3px rgba(71,154,191,0.9) inset,
+        0 0 0 3px #8aaff4 inset,
         0 0 0 100px rgba(0,0,0,0.1) inset; 
 }
 
@@ -283,7 +282,7 @@ body {
 
 .column .col_tit {
     font-size: 20px;
-    color: #2f7fa6;
+    color: #8aaff4;
     padding-bottom: 5px;
 }
 
@@ -328,9 +327,9 @@ body {
 }
 
 .menu li a:hover {
-    box-shadow: inset 180px 0 0 0 rgba(36,130,174,0.7);
+    box-shadow: inset 180px 0 0 0 #b9cff8;
     color: #fff;
-    background: rgba(36,130,174,0.9);
+    background: #b9cff8;
 }
 
 /* 게시판1 */
@@ -340,7 +339,7 @@ body {
 
 .notice1 h5 {
     font-size: 14px;
-    color: #2f7fa6;
+    color: #b9cff8;
     padding-bottom: 5px;
 }
 .notice1 li {
@@ -356,7 +355,7 @@ body {
     width: 3px;
     height: 3px;
     border-radius: 50%;
-    background: #449ce2;
+    background: #b9cff8;
     position: absolute;
     left: 0;
     top: 6px;
@@ -379,7 +378,7 @@ body {
 
 .notice2 h5 {
     font-size: 14px;
-    color: #2f7fa6;
+    color: #b9cff8;
     padding-bottom: 5px;
 }
 
@@ -400,7 +399,7 @@ body {
     width: 3px;
     height: 3px;
     border-radius: 50%;
-    background: #449ce2;
+    background: #b9cff8;
     position: absolute;
     left: 0;
     top: 6px;
@@ -527,12 +526,12 @@ body {
     width: 15px;
     height: 15px;
     cursor: pointer;
-    background: #5dbfeb;
+    background: #b9cff8;
     border-radius: 50%;
 }
 
 .slider .slick-dots li.slick-active button {
-    background: #2b91c8;
+    background: #8aaff4;
 }
 
 .slider .slick-prev {
@@ -552,7 +551,7 @@ body {
     left: 9px;
     top: 8px;
     content: '\f053';
-    color: #5dbfeb;
+    color: #8aaff4;
     text-indent: 0;
 }
 
@@ -573,7 +572,7 @@ body {
     left: 11px;
     top: 8px;
     content: '\f054';
-    color: #5dbfeb;
+    color: #8aaff4;
     text-indent: 0;
 }
 
